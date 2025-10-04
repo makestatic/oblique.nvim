@@ -109,6 +109,8 @@ local plugins = {
   BufferLineBufferSelected = { fg = c.white, bg = c.gray },
 
   -- TODO: add more plugins
+}
+
 
 for group, opts in pairs(default) do vim.api.nvim_set_hl(0, group, opts) end
 for group, opts in pairs(ts)   do vim.api.nvim_set_hl(0, group, opts) end
