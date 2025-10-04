@@ -1,7 +1,8 @@
 # oblique.nvim
 Bring the 99s vibes to your code.
 
-![oblique.nvim](preview.png)
+![oblique.nvim](dark-preview.png)
+![oblique.nvim](light-preview.png)
 
 ## Install (via lazy.nvim)
 ```lua
