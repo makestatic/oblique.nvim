@@ -16,11 +16,12 @@ Bring the 99s vibes to your code.
 ```
 
 ## Plugins Supported
+- Treesitter
 - Telescope
 - Cmp
 - Lualine
 - Nvim-Tree
-- BufferLine
+- Bufferline
 
 ## TODO
 - More plugin support
