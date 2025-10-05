@@ -1,5 +1,5 @@
 # oblique.nvim
-A nostalgic 90s-inspired Neovim colorscheme that brings back old-school coding vibes. *(tho i learned coding 3y ago ;)*
+A nostalgic 2000s-inspired Neovim colorscheme that brings back old-school coding vibes. *(tho i learned coding 3y ago ;)*
 
 ![oblique.nvim](dark-preview.png)  
 ---
