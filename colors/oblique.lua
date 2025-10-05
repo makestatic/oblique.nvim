@@ -1,4 +1,4 @@
--- oblique.nvim (v1.0) - bring the 99s vibes to your code
+-- oblique.nvim (v1.0) - bring the 00s vibes to your code
 -- place in: ~/.config/nvim/colors/
 -- load with: :colorscheme oblique
 
@@ -12,17 +12,18 @@ if bg_mode == "light" then
 		gray = "#e0e0e0",
 		white = "#1e1e1e",
 		blue = "#005faf",
+		cr = "#e5e5e5",
 		lightblue = "#007acc",
 		sky = "#008b8b",
 		green = "#007f4f",
-		darkgreen = "#005f3f",
+		darkgreen = "#94a896",
 		brown = "#9f5500",
 		orange = "#c75a00",
 		purple = "#7a3ec8",
-		symbol = black,
 		red = "#c73e3e",
 		bright = "#000000",
 		accent = "#ff4fa1",
+		symbol = "#000000",
 	}
 	vim.cmd([[
 		hi Cursor guifg=NONE guibg=Black
@@ -34,6 +35,7 @@ else
 		gray = "#3f3f3f",
 		white = "#e6f0f8",
 		blue = "#3388ff",
+		cr = "#4f4f4f",
 		lightblue = "#3e95c4",
 		sky = "#2c9995",
 		green = "#38d27c",
@@ -41,10 +43,10 @@ else
 		brown = "#b86b07",
 		orange = "#ff9305",
 		purple = "#b088f9",
-		symbol = bright,
 		red = "#ff6b6b",
 		bright = "#ffffff",
 		accent = "#ff66cc",
+		symbol = "#ffffff",
 	}
 	vim.cmd([[
 		hi Cursor guifg=NONE guibg=White
@@ -64,10 +66,10 @@ vim.o.cursorline = true
 
 local default = {
 	Normal = { fg = c.white, bg = c.gray },
-	CursorLine = { bg = c.black },
-	LineNr = { fg = "#888888", bg = c.black },
-	CursorLineNr = { fg = c.lightblue, bg = c.gray },
-	SignColumn = { bg = c.black },
+	CursorLine = { bg = c.cr },
+	LineNr = { fg = "#888888", bg = c.gray },
+	CursorLineNr = { fg = c.green, bg = c.gray },
+	SignColumn = { bg = c.gray },
 	Comment = { fg = c.darkgreen },
 	Keyword = { fg = c.lightblue },
 	Type = { fg = c.green },
