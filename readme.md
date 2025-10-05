@@ -1,7 +1,8 @@
 # oblique.nvim
-A nostalgic 90s-inspired Neovim colorscheme that brings back old-school coding vibes. It’s minimal, punchy, and straight to the point.
+A nostalgic 90s-inspired Neovim colorscheme that brings back old-school coding vibes. *(tho i learned coding 3y ago ;)*
 
 ![oblique.nvim](dark-preview.png)  
+---
 ![oblique.nvim](light-preview.png)
 
 ## Install the latest version (via lazy.nvim)
@@ -20,8 +21,7 @@ A nostalgic 90s-inspired Neovim colorscheme that brings back old-school coding v
 
 ![previous-oblique.nvim](prev-version.png)
 
-This version has a more *modern* look. You can find it at this [commit](https://github.com/makestatic/oblique.nvim/tree/b6c40c0c04a756efb2ff42f4fffde352e05eac96), or install it (via lazy.nvim) using the code below.  
-Although, it doesn’t have a light mode — it’s dark mode only.
+This version had a more *modern-ish* look. You can find it at this [commit](https://github.com/makestatic/oblique.nvim/tree/b6c40c0c04a756efb2ff42f4fffde352e05eac96), or install it (via lazy.nvim) using the code below.  *It doesn’t have a light mode (dark mode only).*
 
 ```lua
 {
@@ -44,6 +44,6 @@ Although, it doesn’t have a light mode — it’s dark mode only.
 - Bufferline  
 
 ## TODO
-- Add more plugin support  
+- Supports more plugins
 
 <sub>Copyright (c) 2025 Ali Almalki. Licensed under BSD-3-Clause.</sub>
